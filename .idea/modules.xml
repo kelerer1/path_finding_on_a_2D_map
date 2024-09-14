@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/artificial_intelligence_course_taltech.iml" filepath="$PROJECT_DIR$/.idea/artificial_intelligence_course_taltech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/path_finding_on_a_2D_map.iml" filepath="$PROJECT_DIR$/.idea/path_finding_on_a_2D_map.iml" />
     </modules>
   </component>
 </project>

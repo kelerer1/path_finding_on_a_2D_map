@@ -29,8 +29,8 @@ def my_astar_search(map_data: list, start: tuple):
                 frontier.put((priority, next_node))
                 came_from[next_node] = current
 
-    path_of_travel = []
-    path_found = False
+    path_of_travel: list = []
+    path_found: bool = False
     came_from_node = came_from[diamond_location]
     while not path_found:
 
@@ -40,6 +40,6 @@ def my_astar_search(map_data: list, start: tuple):
             came_from_node = came_from[came_from_node]
 
         else:
-            path_found = True
+            path_found: bool = True
 
     return path_of_travel, map_data
